@@ -1,0 +1,13 @@
+train: thesis.v2i.yolov5pytorch\train
+val: thesis.v2i.yolov5pytorch\valid
+test: thesis.v2i.yolov5pytorch\test
+
+nc: 3
+names: ['not-ready', 'ready', 'stem']
+
+roboflow:
+  workspace: v1-zsbad
+  project: thesis-4iawq
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/v1-zsbad/thesis-4iawq/dataset/2
